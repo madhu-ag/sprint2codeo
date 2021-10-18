@@ -1,0 +1,3168 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "Login",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 25700,
+              "status": "skipped"
+            },
+            "line": 4,
+            "name": "Admin is on login page of Retail site",
+            "match": {
+              "location": "retaillogin.admin_is_on_login_page_of_Retail_site()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 6400,
+              "status": "skipped"
+            },
+            "line": 5,
+            "name": "Admin enters the username and password",
+            "match": {
+              "location": "retaillogin.admin_enters_the_username_and_password()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4800,
+              "status": "skipped"
+            },
+            "line": 6,
+            "name": "Admin clicks on login button",
+            "match": {
+              "location": "retaillogin.admin_clicks_on_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4600,
+              "status": "skipped"
+            },
+            "line": 7,
+            "name": "he verifies that he is navigated to the Dashboard",
+            "match": {
+              "location": "retaillogin.he_verifies_that_he_is_navigated_to_the_Dashboard()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 4400,
+              "status": "skipped"
+            },
+            "line": 8,
+            "name": "admin clicks on Marketing icon",
+            "match": {
+              "location": "retaillogin.admin_clicks_on_Marketing_icon()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5700,
+              "status": "skipped"
+            },
+            "line": 9,
+            "name": "admin clicks on marketing",
+            "match": {
+              "location": "retaillogin.admin_clicks_on_marketing()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-10-13T10:48:01.886Z",
+        "before": [
+          {
+            "result": {
+              "duration": 857900,
+              "status": "skipped"
+            },
+            "match": {
+              "location": "hooksclass.initialisation()"
+            }
+          }
+        ],
+        "line": 20,
+        "name": "Verify by entering details in Campaign name",
+        "description": "",
+        "id": "login-feature;verify-by-entering-details-in-campaign-name;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 9200,
+              "status": "skipped"
+            },
+            "match": {
+              "location": "hooksclass.close()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 4400,
+              "status": "skipped"
+            },
+            "line": 12,
+            "name": "Admin is on Markertin tracking page",
+            "match": {
+              "location": "retaillogin.admin_is_on_Markertin_tracking_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4000,
+              "status": "skipped"
+            },
+            "line": 13,
+            "name": "Admin verifies Campaign name text field",
+            "match": {
+              "location": "retaillogin.admin_verifies_Campaign_name_text_field()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 6600,
+              "status": "skipped"
+            },
+            "line": 14,
+            "name": "Admin enters \"abc\" by already existing data in list and non existing data in the list",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"abc\"",
+                  "offset": 13
+                }
+              ],
+              "location": "retaillogin.admin_enters_by_already_existing_data_in_list_and_non_existing_data_in_the_list(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 7200,
+              "status": "skipped"
+            },
+            "line": 15,
+            "name": "clicks on filter",
+            "match": {
+              "location": "retaillogin.clicks_on_filter()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 6100,
+              "status": "skipped"
+            },
+            "line": 16,
+            "name": "verifies the list",
+            "match": {
+              "location": "retaillogin.verifies_the_list()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "Login",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 5300,
+              "status": "skipped"
+            },
+            "line": 4,
+            "name": "Admin is on login page of Retail site",
+            "match": {
+              "location": "retaillogin.admin_is_on_login_page_of_Retail_site()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 5000,
+              "status": "skipped"
+            },
+            "line": 5,
+            "name": "Admin enters the username and password",
+            "match": {
+              "location": "retaillogin.admin_enters_the_username_and_password()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4700,
+              "status": "skipped"
+            },
+            "line": 6,
+            "name": "Admin clicks on login button",
+            "match": {
+              "location": "retaillogin.admin_clicks_on_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4000,
+              "status": "skipped"
+            },
+            "line": 7,
+            "name": "he verifies that he is navigated to the Dashboard",
+            "match": {
+              "location": "retaillogin.he_verifies_that_he_is_navigated_to_the_Dashboard()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 4000,
+              "status": "skipped"
+            },
+            "line": 8,
+            "name": "admin clicks on Marketing icon",
+            "match": {
+              "location": "retaillogin.admin_clicks_on_Marketing_icon()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4100,
+              "status": "skipped"
+            },
+            "line": 9,
+            "name": "admin clicks on marketing",
+            "match": {
+              "location": "retaillogin.admin_clicks_on_marketing()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-10-13T10:48:01.901Z",
+        "before": [
+          {
+            "result": {
+              "duration": 5800,
+              "status": "skipped"
+            },
+            "match": {
+              "location": "hooksclass.initialisation()"
+            }
+          }
+        ],
+        "line": 21,
+        "name": "Verify by entering details in Campaign name",
+        "description": "",
+        "id": "login-feature;verify-by-entering-details-in-campaign-name;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 3600,
+              "status": "skipped"
+            },
+            "match": {
+              "location": "hooksclass.close()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 3900,
+              "status": "skipped"
+            },
+            "line": 12,
+            "name": "Admin is on Markertin tracking page",
+            "match": {
+              "location": "retaillogin.admin_is_on_Markertin_tracking_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4200,
+              "status": "skipped"
+            },
+            "line": 13,
+            "name": "Admin verifies Campaign name text field",
+            "match": {
+              "location": "retaillogin.admin_verifies_Campaign_name_text_field()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3900,
+              "status": "skipped"
+            },
+            "line": 14,
+            "name": "Admin enters \"fddxgxd\" by already existing data in list and non existing data in the list",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"fddxgxd\"",
+                  "offset": 13
+                }
+              ],
+              "location": "retaillogin.admin_enters_by_already_existing_data_in_list_and_non_existing_data_in_the_list(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 4000,
+              "status": "skipped"
+            },
+            "line": 15,
+            "name": "clicks on filter",
+            "match": {
+              "location": "retaillogin.clicks_on_filter()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3800,
+              "status": "skipped"
+            },
+            "line": 16,
+            "name": "verifies the list",
+            "match": {
+              "location": "retaillogin.verifies_the_list()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "Login",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 3400,
+              "status": "skipped"
+            },
+            "line": 4,
+            "name": "Admin is on login page of Retail site",
+            "match": {
+              "location": "retaillogin.admin_is_on_login_page_of_Retail_site()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4300,
+              "status": "skipped"
+            },
+            "line": 5,
+            "name": "Admin enters the username and password",
+            "match": {
+              "location": "retaillogin.admin_enters_the_username_and_password()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4600,
+              "status": "skipped"
+            },
+            "line": 6,
+            "name": "Admin clicks on login button",
+            "match": {
+              "location": "retaillogin.admin_clicks_on_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4300,
+              "status": "skipped"
+            },
+            "line": 7,
+            "name": "he verifies that he is navigated to the Dashboard",
+            "match": {
+              "location": "retaillogin.he_verifies_that_he_is_navigated_to_the_Dashboard()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3900,
+              "status": "skipped"
+            },
+            "line": 8,
+            "name": "admin clicks on Marketing icon",
+            "match": {
+              "location": "retaillogin.admin_clicks_on_Marketing_icon()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4100,
+              "status": "skipped"
+            },
+            "line": 9,
+            "name": "admin clicks on marketing",
+            "match": {
+              "location": "retaillogin.admin_clicks_on_marketing()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-10-13T10:48:01.903Z",
+        "before": [
+          {
+            "result": {
+              "duration": 4000,
+              "status": "skipped"
+            },
+            "match": {
+              "location": "hooksclass.initialisation()"
+            }
+          }
+        ],
+        "line": 32,
+        "name": "Verify by entering details in Date added field",
+        "description": "",
+        "id": "login-feature;verify-by-entering-details-in-date-added-field;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 3700,
+              "status": "skipped"
+            },
+            "match": {
+              "location": "hooksclass.close()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 4000,
+              "status": "skipped"
+            },
+            "line": 24,
+            "name": "Admin is on Markertin tracking page",
+            "match": {
+              "location": "retaillogin.admin_is_on_Markertin_tracking_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 6600,
+              "status": "skipped"
+            },
+            "line": 25,
+            "name": "Admin verifies Date added text field and calender icon",
+            "match": {
+              "location": "retaillogin.admin_verifies_Date_added_text_field_and_calender_icon()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4000,
+              "status": "skipped"
+            },
+            "line": 26,
+            "name": "Admin enters \"2021-10-06\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"2021-10-06\"",
+                  "offset": 13
+                }
+              ],
+              "location": "retaillogin.admin_enters(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3900,
+              "status": "skipped"
+            },
+            "line": 27,
+            "name": "clicks on filter",
+            "match": {
+              "location": "retaillogin.clicks_on_filter()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4100,
+              "status": "skipped"
+            },
+            "line": 28,
+            "name": "verifies the list",
+            "match": {
+              "location": "retaillogin.verifies_the_list()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "Login",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 4000,
+              "status": "skipped"
+            },
+            "line": 4,
+            "name": "Admin is on login page of Retail site",
+            "match": {
+              "location": "retaillogin.admin_is_on_login_page_of_Retail_site()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4400,
+              "status": "skipped"
+            },
+            "line": 5,
+            "name": "Admin enters the username and password",
+            "match": {
+              "location": "retaillogin.admin_enters_the_username_and_password()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4100,
+              "status": "skipped"
+            },
+            "line": 6,
+            "name": "Admin clicks on login button",
+            "match": {
+              "location": "retaillogin.admin_clicks_on_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4000,
+              "status": "skipped"
+            },
+            "line": 7,
+            "name": "he verifies that he is navigated to the Dashboard",
+            "match": {
+              "location": "retaillogin.he_verifies_that_he_is_navigated_to_the_Dashboard()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 4000,
+              "status": "skipped"
+            },
+            "line": 8,
+            "name": "admin clicks on Marketing icon",
+            "match": {
+              "location": "retaillogin.admin_clicks_on_Marketing_icon()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4100,
+              "status": "skipped"
+            },
+            "line": 9,
+            "name": "admin clicks on marketing",
+            "match": {
+              "location": "retaillogin.admin_clicks_on_marketing()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-10-13T10:48:01.905Z",
+        "before": [
+          {
+            "result": {
+              "duration": 3900,
+              "status": "skipped"
+            },
+            "match": {
+              "location": "hooksclass.initialisation()"
+            }
+          }
+        ],
+        "line": 33,
+        "name": "Verify by entering details in Date added field",
+        "description": "",
+        "id": "login-feature;verify-by-entering-details-in-date-added-field;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 3500,
+              "status": "skipped"
+            },
+            "match": {
+              "location": "hooksclass.close()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 4500,
+              "status": "skipped"
+            },
+            "line": 24,
+            "name": "Admin is on Markertin tracking page",
+            "match": {
+              "location": "retaillogin.admin_is_on_Markertin_tracking_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4000,
+              "status": "skipped"
+            },
+            "line": 25,
+            "name": "Admin verifies Date added text field and calender icon",
+            "match": {
+              "location": "retaillogin.admin_verifies_Date_added_text_field_and_calender_icon()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4000,
+              "status": "skipped"
+            },
+            "line": 26,
+            "name": "Admin enters \"2021-10-07\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"2021-10-07\"",
+                  "offset": 13
+                }
+              ],
+              "location": "retaillogin.admin_enters(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3900,
+              "status": "skipped"
+            },
+            "line": 27,
+            "name": "clicks on filter",
+            "match": {
+              "location": "retaillogin.clicks_on_filter()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3900,
+              "status": "skipped"
+            },
+            "line": 28,
+            "name": "verifies the list",
+            "match": {
+              "location": "retaillogin.verifies_the_list()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "Login",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 3200,
+              "status": "skipped"
+            },
+            "line": 4,
+            "name": "Admin is on login page of Retail site",
+            "match": {
+              "location": "retaillogin.admin_is_on_login_page_of_Retail_site()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4000,
+              "status": "skipped"
+            },
+            "line": 5,
+            "name": "Admin enters the username and password",
+            "match": {
+              "location": "retaillogin.admin_enters_the_username_and_password()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4500,
+              "status": "skipped"
+            },
+            "line": 6,
+            "name": "Admin clicks on login button",
+            "match": {
+              "location": "retaillogin.admin_clicks_on_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3800,
+              "status": "skipped"
+            },
+            "line": 7,
+            "name": "he verifies that he is navigated to the Dashboard",
+            "match": {
+              "location": "retaillogin.he_verifies_that_he_is_navigated_to_the_Dashboard()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3900,
+              "status": "skipped"
+            },
+            "line": 8,
+            "name": "admin clicks on Marketing icon",
+            "match": {
+              "location": "retaillogin.admin_clicks_on_Marketing_icon()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5400,
+              "status": "skipped"
+            },
+            "line": 9,
+            "name": "admin clicks on marketing",
+            "match": {
+              "location": "retaillogin.admin_clicks_on_marketing()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-10-13T10:48:01.906Z",
+        "before": [
+          {
+            "result": {
+              "duration": 3600,
+              "status": "skipped"
+            },
+            "match": {
+              "location": "hooksclass.initialisation()"
+            }
+          }
+        ],
+        "line": 44,
+        "name": "Verify by entering details in Tracking code",
+        "description": "",
+        "id": "login-feature;verify-by-entering-details-in-tracking-code;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 3600,
+              "status": "skipped"
+            },
+            "match": {
+              "location": "hooksclass.close()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 4800,
+              "status": "skipped"
+            },
+            "line": 36,
+            "name": "Admin is on Markertin tracking page",
+            "match": {
+              "location": "retaillogin.admin_is_on_Markertin_tracking_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3900,
+              "status": "skipped"
+            },
+            "line": 37,
+            "name": "Admin verifies Tracking code text field",
+            "match": {
+              "location": "retaillogin.admin_verifies_Tracking_code_text_field()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4100,
+              "status": "skipped"
+            },
+            "line": 38,
+            "name": "Admin enters \"6135a8f3283d9\" in trabking code field by already existing data in listand non existing data in the list",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"6135a8f3283d9\"",
+                  "offset": 13
+                }
+              ],
+              "location": "retaillogin.admin_enters_in_trabking_code_field_by_already_existing_data_in_listand_non_existing_data_in_the_list(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 4200,
+              "status": "skipped"
+            },
+            "line": 39,
+            "name": "clicks on filter",
+            "match": {
+              "location": "retaillogin.clicks_on_filter()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3900,
+              "status": "skipped"
+            },
+            "line": 40,
+            "name": "verifies the list",
+            "match": {
+              "location": "retaillogin.verifies_the_list()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "Login",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 3600,
+              "status": "skipped"
+            },
+            "line": 4,
+            "name": "Admin is on login page of Retail site",
+            "match": {
+              "location": "retaillogin.admin_is_on_login_page_of_Retail_site()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4500,
+              "status": "skipped"
+            },
+            "line": 5,
+            "name": "Admin enters the username and password",
+            "match": {
+              "location": "retaillogin.admin_enters_the_username_and_password()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4300,
+              "status": "skipped"
+            },
+            "line": 6,
+            "name": "Admin clicks on login button",
+            "match": {
+              "location": "retaillogin.admin_clicks_on_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4200,
+              "status": "skipped"
+            },
+            "line": 7,
+            "name": "he verifies that he is navigated to the Dashboard",
+            "match": {
+              "location": "retaillogin.he_verifies_that_he_is_navigated_to_the_Dashboard()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 5200,
+              "status": "skipped"
+            },
+            "line": 8,
+            "name": "admin clicks on Marketing icon",
+            "match": {
+              "location": "retaillogin.admin_clicks_on_Marketing_icon()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 7000,
+              "status": "skipped"
+            },
+            "line": 9,
+            "name": "admin clicks on marketing",
+            "match": {
+              "location": "retaillogin.admin_clicks_on_marketing()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-10-13T10:48:01.908Z",
+        "before": [
+          {
+            "result": {
+              "duration": 4400,
+              "status": "skipped"
+            },
+            "match": {
+              "location": "hooksclass.initialisation()"
+            }
+          }
+        ],
+        "line": 45,
+        "name": "Verify by entering details in Tracking code",
+        "description": "",
+        "id": "login-feature;verify-by-entering-details-in-tracking-code;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 3400,
+              "status": "skipped"
+            },
+            "match": {
+              "location": "hooksclass.close()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 10500,
+              "status": "skipped"
+            },
+            "line": 36,
+            "name": "Admin is on Markertin tracking page",
+            "match": {
+              "location": "retaillogin.admin_is_on_Markertin_tracking_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 6400,
+              "status": "skipped"
+            },
+            "line": 37,
+            "name": "Admin verifies Tracking code text field",
+            "match": {
+              "location": "retaillogin.admin_verifies_Tracking_code_text_field()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 14200,
+              "status": "skipped"
+            },
+            "line": 38,
+            "name": "Admin enters \"jriwod234edee\" in trabking code field by already existing data in listand non existing data in the list",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"jriwod234edee\"",
+                  "offset": 13
+                }
+              ],
+              "location": "retaillogin.admin_enters_in_trabking_code_field_by_already_existing_data_in_listand_non_existing_data_in_the_list(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 4100,
+              "status": "skipped"
+            },
+            "line": 39,
+            "name": "clicks on filter",
+            "match": {
+              "location": "retaillogin.clicks_on_filter()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4100,
+              "status": "skipped"
+            },
+            "line": 40,
+            "name": "verifies the list",
+            "match": {
+              "location": "retaillogin.verifies_the_list()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "Login",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 5500,
+              "status": "skipped"
+            },
+            "line": 4,
+            "name": "Admin is on login page of Retail site",
+            "match": {
+              "location": "retaillogin.admin_is_on_login_page_of_Retail_site()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 10300,
+              "status": "skipped"
+            },
+            "line": 5,
+            "name": "Admin enters the username and password",
+            "match": {
+              "location": "retaillogin.admin_enters_the_username_and_password()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 9000,
+              "status": "skipped"
+            },
+            "line": 6,
+            "name": "Admin clicks on login button",
+            "match": {
+              "location": "retaillogin.admin_clicks_on_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5700,
+              "status": "skipped"
+            },
+            "line": 7,
+            "name": "he verifies that he is navigated to the Dashboard",
+            "match": {
+              "location": "retaillogin.he_verifies_that_he_is_navigated_to_the_Dashboard()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 5700,
+              "status": "skipped"
+            },
+            "line": 8,
+            "name": "admin clicks on Marketing icon",
+            "match": {
+              "location": "retaillogin.admin_clicks_on_Marketing_icon()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 6400,
+              "status": "skipped"
+            },
+            "line": 9,
+            "name": "admin clicks on marketing",
+            "match": {
+              "location": "retaillogin.admin_clicks_on_marketing()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-10-13T10:48:01.910Z",
+        "before": [
+          {
+            "result": {
+              "duration": 5900,
+              "status": "skipped"
+            },
+            "match": {
+              "location": "hooksclass.initialisation()"
+            }
+          }
+        ],
+        "line": 59,
+        "name": "Verify the Add button and Add valid data",
+        "description": "",
+        "id": "login-feature;verify-the-add-button-and-add-valid-data;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 4900,
+              "status": "skipped"
+            },
+            "match": {
+              "location": "hooksclass.close()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 6300,
+              "status": "skipped"
+            },
+            "line": 48,
+            "name": "Admin is on Markertin tracking page",
+            "match": {
+              "location": "retaillogin.admin_is_on_Markertin_tracking_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 6000,
+              "status": "skipped"
+            },
+            "line": 49,
+            "name": "Admin verifies and clicks the add button",
+            "match": {
+              "location": "retaillogin.admin_verifies_and_clicks_the_add_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 5900,
+              "status": "skipped"
+            },
+            "line": 50,
+            "name": "admin verifies that he is navigated to add marketing tracking page",
+            "match": {
+              "location": "retaillogin.admin_verifies_that_he_is_navigated_to_add_marketing_tracking_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 5300,
+              "status": "skipped"
+            },
+            "line": 51,
+            "name": "verifies Campaign name, Campaign Description, Tracking code and Examples text field",
+            "match": {
+              "location": "retaillogin.verifies_Campaign_name_Campaign_Description_Tracking_code_and_Examples_text_field()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5600,
+              "status": "skipped"
+            },
+            "line": 52,
+            "name": "add \"Naya123\", \"Rggdf123d\" with alphanumeric,special character,twenty five characters",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Naya123\"",
+                  "offset": 4
+                },
+                {
+                  "val": "\"Rggdf123d\"",
+                  "offset": 15
+                }
+              ],
+              "location": "retaillogin.add_with_alphanumeric_special_character_twenty_five_characters(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5400,
+              "status": "skipped"
+            },
+            "line": 53,
+            "name": "verifies tracking code is given by default example field has default URL",
+            "match": {
+              "location": "retaillogin.verifies_tracking_code_is_given_by_default_example_field_has_default_URL()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5700,
+              "status": "skipped"
+            },
+            "line": 54,
+            "name": "verifies and click on Save icon",
+            "match": {
+              "location": "retaillogin.verifies_and_click_on_Save_icon()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5400,
+              "status": "skipped"
+            },
+            "line": 55,
+            "name": "verifeis the successful modification message",
+            "match": {
+              "location": "retaillogin.verifeis_the_successful_modification_message()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "Login",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 3700,
+              "status": "skipped"
+            },
+            "line": 4,
+            "name": "Admin is on login page of Retail site",
+            "match": {
+              "location": "retaillogin.admin_is_on_login_page_of_Retail_site()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2700,
+              "status": "skipped"
+            },
+            "line": 5,
+            "name": "Admin enters the username and password",
+            "match": {
+              "location": "retaillogin.admin_enters_the_username_and_password()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3900,
+              "status": "skipped"
+            },
+            "line": 6,
+            "name": "Admin clicks on login button",
+            "match": {
+              "location": "retaillogin.admin_clicks_on_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5300,
+              "status": "skipped"
+            },
+            "line": 7,
+            "name": "he verifies that he is navigated to the Dashboard",
+            "match": {
+              "location": "retaillogin.he_verifies_that_he_is_navigated_to_the_Dashboard()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2700,
+              "status": "skipped"
+            },
+            "line": 8,
+            "name": "admin clicks on Marketing icon",
+            "match": {
+              "location": "retaillogin.admin_clicks_on_Marketing_icon()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2700,
+              "status": "skipped"
+            },
+            "line": 9,
+            "name": "admin clicks on marketing",
+            "match": {
+              "location": "retaillogin.admin_clicks_on_marketing()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-10-13T10:48:01.913Z",
+        "before": [
+          {
+            "result": {
+              "duration": 10500,
+              "status": "skipped"
+            },
+            "match": {
+              "location": "hooksclass.initialisation()"
+            }
+          }
+        ],
+        "line": 60,
+        "name": "Verify the Add button and Add valid data",
+        "description": "",
+        "id": "login-feature;verify-the-add-button-and-add-valid-data;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 3300,
+              "status": "skipped"
+            },
+            "match": {
+              "location": "hooksclass.close()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2800,
+              "status": "skipped"
+            },
+            "line": 48,
+            "name": "Admin is on Markertin tracking page",
+            "match": {
+              "location": "retaillogin.admin_is_on_Markertin_tracking_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2500,
+              "status": "skipped"
+            },
+            "line": 49,
+            "name": "Admin verifies and clicks the add button",
+            "match": {
+              "location": "retaillogin.admin_verifies_and_clicks_the_add_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2600,
+              "status": "skipped"
+            },
+            "line": 50,
+            "name": "admin verifies that he is navigated to add marketing tracking page",
+            "match": {
+              "location": "retaillogin.admin_verifies_that_he_is_navigated_to_add_marketing_tracking_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2600,
+              "status": "skipped"
+            },
+            "line": 51,
+            "name": "verifies Campaign name, Campaign Description, Tracking code and Examples text field",
+            "match": {
+              "location": "retaillogin.verifies_Campaign_name_Campaign_Description_Tracking_code_and_Examples_text_field()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4300,
+              "status": "skipped"
+            },
+            "line": 52,
+            "name": "add \"Nayd$@$\", \"fsdmfmsgk%$$\" with alphanumeric,special character,twenty five characters",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Nayd$@$\"",
+                  "offset": 4
+                },
+                {
+                  "val": "\"fsdmfmsgk%$$\"",
+                  "offset": 15
+                }
+              ],
+              "location": "retaillogin.add_with_alphanumeric_special_character_twenty_five_characters(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3500,
+              "status": "skipped"
+            },
+            "line": 53,
+            "name": "verifies tracking code is given by default example field has default URL",
+            "match": {
+              "location": "retaillogin.verifies_tracking_code_is_given_by_default_example_field_has_default_URL()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3600,
+              "status": "skipped"
+            },
+            "line": 54,
+            "name": "verifies and click on Save icon",
+            "match": {
+              "location": "retaillogin.verifies_and_click_on_Save_icon()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 6600,
+              "status": "skipped"
+            },
+            "line": 55,
+            "name": "verifeis the successful modification message",
+            "match": {
+              "location": "retaillogin.verifeis_the_successful_modification_message()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "Login",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 4700,
+              "status": "skipped"
+            },
+            "line": 4,
+            "name": "Admin is on login page of Retail site",
+            "match": {
+              "location": "retaillogin.admin_is_on_login_page_of_Retail_site()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 5000,
+              "status": "skipped"
+            },
+            "line": 5,
+            "name": "Admin enters the username and password",
+            "match": {
+              "location": "retaillogin.admin_enters_the_username_and_password()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4000,
+              "status": "skipped"
+            },
+            "line": 6,
+            "name": "Admin clicks on login button",
+            "match": {
+              "location": "retaillogin.admin_clicks_on_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3800,
+              "status": "skipped"
+            },
+            "line": 7,
+            "name": "he verifies that he is navigated to the Dashboard",
+            "match": {
+              "location": "retaillogin.he_verifies_that_he_is_navigated_to_the_Dashboard()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 5000,
+              "status": "skipped"
+            },
+            "line": 8,
+            "name": "admin clicks on Marketing icon",
+            "match": {
+              "location": "retaillogin.admin_clicks_on_Marketing_icon()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3700,
+              "status": "skipped"
+            },
+            "line": 9,
+            "name": "admin clicks on marketing",
+            "match": {
+              "location": "retaillogin.admin_clicks_on_marketing()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-10-13T10:48:01.915Z",
+        "before": [
+          {
+            "result": {
+              "duration": 4700,
+              "status": "skipped"
+            },
+            "match": {
+              "location": "hooksclass.initialisation()"
+            }
+          }
+        ],
+        "line": 61,
+        "name": "Verify the Add button and Add valid data",
+        "description": "",
+        "id": "login-feature;verify-the-add-button-and-add-valid-data;;4",
+        "after": [
+          {
+            "result": {
+              "duration": 2300,
+              "status": "skipped"
+            },
+            "match": {
+              "location": "hooksclass.close()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 3500,
+              "status": "skipped"
+            },
+            "line": 48,
+            "name": "Admin is on Markertin tracking page",
+            "match": {
+              "location": "retaillogin.admin_is_on_Markertin_tracking_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 6300,
+              "status": "skipped"
+            },
+            "line": 49,
+            "name": "Admin verifies and clicks the add button",
+            "match": {
+              "location": "retaillogin.admin_verifies_and_clicks_the_add_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 5500,
+              "status": "skipped"
+            },
+            "line": 50,
+            "name": "admin verifies that he is navigated to add marketing tracking page",
+            "match": {
+              "location": "retaillogin.admin_verifies_that_he_is_navigated_to_add_marketing_tracking_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2800,
+              "status": "skipped"
+            },
+            "line": 51,
+            "name": "verifies Campaign name, Campaign Description, Tracking code and Examples text field",
+            "match": {
+              "location": "retaillogin.verifies_Campaign_name_Campaign_Description_Tracking_code_and_Examples_text_field()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2700,
+              "status": "skipped"
+            },
+            "line": 52,
+            "name": "add \"Acbhdyehdjfkvhilidsxcdcdc\", \"Achejmjmjnjjjddddccccccuu\" with alphanumeric,special character,twenty five characters",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Acbhdyehdjfkvhilidsxcdcdc\"",
+                  "offset": 4
+                },
+                {
+                  "val": "\"Achejmjmjnjjjddddccccccuu\"",
+                  "offset": 33
+                }
+              ],
+              "location": "retaillogin.add_with_alphanumeric_special_character_twenty_five_characters(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2600,
+              "status": "skipped"
+            },
+            "line": 53,
+            "name": "verifies tracking code is given by default example field has default URL",
+            "match": {
+              "location": "retaillogin.verifies_tracking_code_is_given_by_default_example_field_has_default_URL()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2900,
+              "status": "skipped"
+            },
+            "line": 54,
+            "name": "verifies and click on Save icon",
+            "match": {
+              "location": "retaillogin.verifies_and_click_on_Save_icon()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2700,
+              "status": "skipped"
+            },
+            "line": 55,
+            "name": "verifeis the successful modification message",
+            "match": {
+              "location": "retaillogin.verifeis_the_successful_modification_message()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "Login",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 4000,
+              "status": "skipped"
+            },
+            "line": 4,
+            "name": "Admin is on login page of Retail site",
+            "match": {
+              "location": "retaillogin.admin_is_on_login_page_of_Retail_site()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3400,
+              "status": "skipped"
+            },
+            "line": 5,
+            "name": "Admin enters the username and password",
+            "match": {
+              "location": "retaillogin.admin_enters_the_username_and_password()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2700,
+              "status": "skipped"
+            },
+            "line": 6,
+            "name": "Admin clicks on login button",
+            "match": {
+              "location": "retaillogin.admin_clicks_on_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4200,
+              "status": "skipped"
+            },
+            "line": 7,
+            "name": "he verifies that he is navigated to the Dashboard",
+            "match": {
+              "location": "retaillogin.he_verifies_that_he_is_navigated_to_the_Dashboard()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2600,
+              "status": "skipped"
+            },
+            "line": 8,
+            "name": "admin clicks on Marketing icon",
+            "match": {
+              "location": "retaillogin.admin_clicks_on_Marketing_icon()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2700,
+              "status": "skipped"
+            },
+            "line": 9,
+            "name": "admin clicks on marketing",
+            "match": {
+              "location": "retaillogin.admin_clicks_on_marketing()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-10-13T10:48:01.918Z",
+        "before": [
+          {
+            "result": {
+              "duration": 3400,
+              "status": "skipped"
+            },
+            "match": {
+              "location": "hooksclass.initialisation()"
+            }
+          }
+        ],
+        "line": 75,
+        "name": "Verify the Add button and Add invalid tracking code",
+        "description": "",
+        "id": "login-feature;verify-the-add-button-and-add-invalid-tracking-code;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 2100,
+              "status": "skipped"
+            },
+            "match": {
+              "location": "hooksclass.close()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2600,
+              "status": "skipped"
+            },
+            "line": 65,
+            "name": "Admin is on Markertin tracking page",
+            "match": {
+              "location": "retaillogin.admin_is_on_Markertin_tracking_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3400,
+              "status": "skipped"
+            },
+            "line": 66,
+            "name": "Admin verifies and clicks the add button",
+            "match": {
+              "location": "retaillogin.admin_verifies_and_clicks_the_add_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2700,
+              "status": "skipped"
+            },
+            "line": 67,
+            "name": "admin verifies that he is navigated to add marketing tracking page",
+            "match": {
+              "location": "retaillogin.admin_verifies_that_he_is_navigated_to_add_marketing_tracking_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2600,
+              "status": "skipped"
+            },
+            "line": 68,
+            "name": "verifies Campaign name, Campaign Description, Tracking code and Examples text field",
+            "match": {
+              "location": "retaillogin.verifies_Campaign_name_Campaign_Description_Tracking_code_and_Examples_text_field()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2600,
+              "status": "skipped"
+            },
+            "line": 69,
+            "name": "add \"adgxvxdv\" with any value and \"Axnjkloiuytghjklpoiuytrewsdfghjklmnbvcxz4567890ioklcfsfdfqwertyuioplkjhgfdsazxcvbnmkjhgfdsaqwertyhg5678904567890-\u003dojhtgnjkmljhgvftyuhjkloiuytrewsdfghjklmnbvcxzsdfghjkloiuhbnm,loiuytvbbbbbbbbbbbbbbbbbbbbbbbbbbbbhhhhhhhhjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjuuuuuu\" with two hundred fifty seven characters",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"adgxvxdv\"",
+                  "offset": 4
+                },
+                {
+                  "val": "\"Axnjkloiuytghjklpoiuytrewsdfghjklmnbvcxz4567890ioklcfsfdfqwertyuioplkjhgfdsazxcvbnmkjhgfdsaqwertyhg5678904567890-\u003dojhtgnjkmljhgvftyuhjkloiuytrewsdfghjklmnbvcxzsdfghjkloiuhbnm,loiuytvbbbbbbbbbbbbbbbbbbbbbbbbbbbbhhhhhhhhjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjuuuuuu\"",
+                  "offset": 34
+                }
+              ],
+              "location": "retaillogin.add_with_any_value_and_with_two_hundred_fifty_seven_characters(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3700,
+              "status": "skipped"
+            },
+            "line": 70,
+            "name": "verifies and click on Save icon",
+            "match": {
+              "location": "retaillogin.verifies_and_click_on_Save_icon()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2600,
+              "status": "skipped"
+            },
+            "line": 71,
+            "name": "verifies the Error message",
+            "match": {
+              "location": "retaillogin.verifies_the_Error_message()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Sanity"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "Login",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 5900,
+              "status": "skipped"
+            },
+            "line": 4,
+            "name": "Admin is on login page of Retail site",
+            "match": {
+              "location": "retaillogin.admin_is_on_login_page_of_Retail_site()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 6300,
+              "status": "skipped"
+            },
+            "line": 5,
+            "name": "Admin enters the username and password",
+            "match": {
+              "location": "retaillogin.admin_enters_the_username_and_password()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3800,
+              "status": "skipped"
+            },
+            "line": 6,
+            "name": "Admin clicks on login button",
+            "match": {
+              "location": "retaillogin.admin_clicks_on_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3900,
+              "status": "skipped"
+            },
+            "line": 7,
+            "name": "he verifies that he is navigated to the Dashboard",
+            "match": {
+              "location": "retaillogin.he_verifies_that_he_is_navigated_to_the_Dashboard()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3800,
+              "status": "skipped"
+            },
+            "line": 8,
+            "name": "admin clicks on Marketing icon",
+            "match": {
+              "location": "retaillogin.admin_clicks_on_Marketing_icon()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5500,
+              "status": "skipped"
+            },
+            "line": 9,
+            "name": "admin clicks on marketing",
+            "match": {
+              "location": "retaillogin.admin_clicks_on_marketing()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-10-13T10:48:01.920Z",
+        "before": [
+          {
+            "result": {
+              "duration": 6600,
+              "status": "skipped"
+            },
+            "match": {
+              "location": "hooksclass.initialisation()"
+            }
+          }
+        ],
+        "line": 88,
+        "name": "Verify the Add button and Add invalid data",
+        "description": "",
+        "id": "login-feature;verify-the-add-button-and-add-invalid-data;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 8100,
+              "status": "skipped"
+            },
+            "match": {
+              "location": "hooksclass.close()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 12100,
+              "status": "skipped"
+            },
+            "line": 78,
+            "name": "Admin is on Markertin tracking page",
+            "match": {
+              "location": "retaillogin.admin_is_on_Markertin_tracking_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 5600,
+              "status": "skipped"
+            },
+            "line": 79,
+            "name": "Admin verifies and clicks the add button",
+            "match": {
+              "location": "retaillogin.admin_verifies_and_clicks_the_add_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 5800,
+              "status": "skipped"
+            },
+            "line": 80,
+            "name": "admin verifies that he is navigated to add marketing tracking page",
+            "match": {
+              "location": "retaillogin.admin_verifies_that_he_is_navigated_to_add_marketing_tracking_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 5600,
+              "status": "skipped"
+            },
+            "line": 81,
+            "name": "verifies Campaign name, Campaign Description, Tracking code and Examples text field",
+            "match": {
+              "location": "retaillogin.verifies_Campaign_name_Campaign_Description_Tracking_code_and_Examples_text_field()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5200,
+              "status": "skipped"
+            },
+            "line": 82,
+            "name": "add \"\", \"\" with null value and two hundred fifty seven characters",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"\"",
+                  "offset": 4
+                },
+                {
+                  "val": "\"\"",
+                  "offset": 8
+                }
+              ],
+              "location": "retaillogin.add_with_null_value_and_two_hundred_fifty_seven_characters(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3400,
+              "status": "skipped"
+            },
+            "line": 83,
+            "name": "verifies and click on Save icon",
+            "match": {
+              "location": "retaillogin.verifies_and_click_on_Save_icon()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4300,
+              "status": "skipped"
+            },
+            "line": 84,
+            "name": "verifies the Error message",
+            "match": {
+              "location": "retaillogin.verifies_the_Error_message()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "Login",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 3200,
+              "status": "skipped"
+            },
+            "line": 4,
+            "name": "Admin is on login page of Retail site",
+            "match": {
+              "location": "retaillogin.admin_is_on_login_page_of_Retail_site()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2700,
+              "status": "skipped"
+            },
+            "line": 5,
+            "name": "Admin enters the username and password",
+            "match": {
+              "location": "retaillogin.admin_enters_the_username_and_password()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2800,
+              "status": "skipped"
+            },
+            "line": 6,
+            "name": "Admin clicks on login button",
+            "match": {
+              "location": "retaillogin.admin_clicks_on_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2700,
+              "status": "skipped"
+            },
+            "line": 7,
+            "name": "he verifies that he is navigated to the Dashboard",
+            "match": {
+              "location": "retaillogin.he_verifies_that_he_is_navigated_to_the_Dashboard()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2900,
+              "status": "skipped"
+            },
+            "line": 8,
+            "name": "admin clicks on Marketing icon",
+            "match": {
+              "location": "retaillogin.admin_clicks_on_Marketing_icon()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2800,
+              "status": "skipped"
+            },
+            "line": 9,
+            "name": "admin clicks on marketing",
+            "match": {
+              "location": "retaillogin.admin_clicks_on_marketing()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-10-13T10:48:01.923Z",
+        "before": [
+          {
+            "result": {
+              "duration": 4100,
+              "status": "skipped"
+            },
+            "match": {
+              "location": "hooksclass.initialisation()"
+            }
+          }
+        ],
+        "line": 89,
+        "name": "Verify the Add button and Add invalid data",
+        "description": "",
+        "id": "login-feature;verify-the-add-button-and-add-invalid-data;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 2300,
+              "status": "skipped"
+            },
+            "match": {
+              "location": "hooksclass.close()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2700,
+              "status": "skipped"
+            },
+            "line": 78,
+            "name": "Admin is on Markertin tracking page",
+            "match": {
+              "location": "retaillogin.admin_is_on_Markertin_tracking_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2700,
+              "status": "skipped"
+            },
+            "line": 79,
+            "name": "Admin verifies and clicks the add button",
+            "match": {
+              "location": "retaillogin.admin_verifies_and_clicks_the_add_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2700,
+              "status": "skipped"
+            },
+            "line": 80,
+            "name": "admin verifies that he is navigated to add marketing tracking page",
+            "match": {
+              "location": "retaillogin.admin_verifies_that_he_is_navigated_to_add_marketing_tracking_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2900,
+              "status": "skipped"
+            },
+            "line": 81,
+            "name": "verifies Campaign name, Campaign Description, Tracking code and Examples text field",
+            "match": {
+              "location": "retaillogin.verifies_Campaign_name_Campaign_Description_Tracking_code_and_Examples_text_field()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2800,
+              "status": "skipped"
+            },
+            "line": 82,
+            "name": "add \"Axnjkloiuytghjklpoiuytrewsdfghjklmnbvcxz4567890ioklcfsfdfqwertyuioplkjhgfdsazxcvbnmkjhgfdsaqwertyhg5678904567890-\u003dojhtgnjkmljhgvftyuhjkloiuytrewsdfghjklmnbvcxzsdfghjkloiuhbnm,loiuytvbbbbbbbbbbbbbbbbbbbbbbbbbbbbhhhhhhhhjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjuuuuuu\", \"Axnjkloiuytghjklpoiuytrewsdfghjklmnbvc\" with null value and two hundred fifty seven characters",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Axnjkloiuytghjklpoiuytrewsdfghjklmnbvcxz4567890ioklcfsfdfqwertyuioplkjhgfdsazxcvbnmkjhgfdsaqwertyhg5678904567890-\u003dojhtgnjkmljhgvftyuhjkloiuytrewsdfghjklmnbvcxzsdfghjkloiuhbnm,loiuytvbbbbbbbbbbbbbbbbbbbbbbbbbbbbhhhhhhhhjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjuuuuuu\"",
+                  "offset": 4
+                },
+                {
+                  "val": "\"Axnjkloiuytghjklpoiuytrewsdfghjklmnbvc\"",
+                  "offset": 262
+                }
+              ],
+              "location": "retaillogin.add_with_null_value_and_two_hundred_fifty_seven_characters(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2700,
+              "status": "skipped"
+            },
+            "line": 83,
+            "name": "verifies and click on Save icon",
+            "match": {
+              "location": "retaillogin.verifies_and_click_on_Save_icon()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2800,
+              "status": "skipped"
+            },
+            "line": 84,
+            "name": "verifies the Error message",
+            "match": {
+              "location": "retaillogin.verifies_the_Error_message()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "Login",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 4300,
+              "status": "skipped"
+            },
+            "line": 4,
+            "name": "Admin is on login page of Retail site",
+            "match": {
+              "location": "retaillogin.admin_is_on_login_page_of_Retail_site()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 7500,
+              "status": "skipped"
+            },
+            "line": 5,
+            "name": "Admin enters the username and password",
+            "match": {
+              "location": "retaillogin.admin_enters_the_username_and_password()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2900,
+              "status": "skipped"
+            },
+            "line": 6,
+            "name": "Admin clicks on login button",
+            "match": {
+              "location": "retaillogin.admin_clicks_on_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 11800,
+              "status": "skipped"
+            },
+            "line": 7,
+            "name": "he verifies that he is navigated to the Dashboard",
+            "match": {
+              "location": "retaillogin.he_verifies_that_he_is_navigated_to_the_Dashboard()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3000,
+              "status": "skipped"
+            },
+            "line": 8,
+            "name": "admin clicks on Marketing icon",
+            "match": {
+              "location": "retaillogin.admin_clicks_on_Marketing_icon()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3000,
+              "status": "skipped"
+            },
+            "line": 9,
+            "name": "admin clicks on marketing",
+            "match": {
+              "location": "retaillogin.admin_clicks_on_marketing()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-10-13T10:48:01.925Z",
+        "before": [
+          {
+            "result": {
+              "duration": 5200,
+              "status": "skipped"
+            },
+            "match": {
+              "location": "hooksclass.initialisation()"
+            }
+          }
+        ],
+        "line": 91,
+        "name": "Verify Cancel button",
+        "description": "",
+        "id": "login-feature;verify-cancel-button",
+        "after": [
+          {
+            "result": {
+              "duration": 3800,
+              "status": "skipped"
+            },
+            "match": {
+              "location": "hooksclass.close()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4300,
+              "status": "skipped"
+            },
+            "line": 92,
+            "name": "Admin is on Markertin tracking page",
+            "match": {
+              "location": "retaillogin.admin_is_on_Markertin_tracking_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3700,
+              "status": "skipped"
+            },
+            "line": 93,
+            "name": "Admin verifies and clicks the add button",
+            "match": {
+              "location": "retaillogin.admin_verifies_and_clicks_the_add_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 5000,
+              "status": "skipped"
+            },
+            "line": 94,
+            "name": "admin verifies that he is navigated to add marketing tracking page",
+            "match": {
+              "location": "retaillogin.admin_verifies_that_he_is_navigated_to_add_marketing_tracking_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 4100,
+              "status": "skipped"
+            },
+            "line": 95,
+            "name": "Verifies and clicks on save button",
+            "match": {
+              "location": "retaillogin.verifies_and_clicks_on_save_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4200,
+              "status": "skipped"
+            },
+            "line": 96,
+            "name": "verifies he is navigated to previous Marketing Tracking page",
+            "match": {
+              "location": "retaillogin.verifies_he_is_navigated_to_previous_Marketing_Tracking_page()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "Login",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 3300,
+              "status": "skipped"
+            },
+            "line": 4,
+            "name": "Admin is on login page of Retail site",
+            "match": {
+              "location": "retaillogin.admin_is_on_login_page_of_Retail_site()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 5800,
+              "status": "skipped"
+            },
+            "line": 5,
+            "name": "Admin enters the username and password",
+            "match": {
+              "location": "retaillogin.admin_enters_the_username_and_password()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4100,
+              "status": "skipped"
+            },
+            "line": 6,
+            "name": "Admin clicks on login button",
+            "match": {
+              "location": "retaillogin.admin_clicks_on_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4300,
+              "status": "skipped"
+            },
+            "line": 7,
+            "name": "he verifies that he is navigated to the Dashboard",
+            "match": {
+              "location": "retaillogin.he_verifies_that_he_is_navigated_to_the_Dashboard()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3900,
+              "status": "skipped"
+            },
+            "line": 8,
+            "name": "admin clicks on Marketing icon",
+            "match": {
+              "location": "retaillogin.admin_clicks_on_Marketing_icon()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4200,
+              "status": "skipped"
+            },
+            "line": 9,
+            "name": "admin clicks on marketing",
+            "match": {
+              "location": "retaillogin.admin_clicks_on_marketing()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-10-13T10:48:01.927Z",
+        "before": [
+          {
+            "result": {
+              "duration": 4400,
+              "status": "skipped"
+            },
+            "match": {
+              "location": "hooksclass.initialisation()"
+            }
+          }
+        ],
+        "line": 108,
+        "name": "Verify checkbox and Delete icon and dismiss in the alert box",
+        "description": "",
+        "id": "login-feature;verify-checkbox-and-delete-icon-and-dismiss-in-the-alert-box;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 2400,
+              "status": "skipped"
+            },
+            "match": {
+              "location": "hooksclass.close()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 3200,
+              "status": "skipped"
+            },
+            "line": 99,
+            "name": "Admin is on Marketing Tracking page",
+            "match": {
+              "location": "retaillogin.admin_is_on_Marketing_Tracking_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 7700,
+              "status": "skipped"
+            },
+            "line": 100,
+            "name": "Admin verifies the checkbox \"20\" and delete button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"20\"",
+                  "offset": 28
+                }
+              ],
+              "location": "retaillogin.admin_verifies_the_checkbox_and_delete_button(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4700,
+              "status": "skipped"
+            },
+            "line": 101,
+            "name": "he checks the checkbox \"20\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"20\"",
+                  "offset": 23
+                }
+              ],
+              "location": "retaillogin.he_checks_the_checkbox(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 32300,
+              "status": "skipped"
+            },
+            "line": 102,
+            "name": "click on delete button",
+            "match": {
+              "location": "retaillogin.click_on_delete_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4400,
+              "status": "skipped"
+            },
+            "line": 103,
+            "name": "admin checks the alert message",
+            "match": {
+              "location": "retaillogin.admin_checks_the_alert_message()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4000,
+              "status": "skipped"
+            },
+            "line": 104,
+            "name": "admin cancel in the alert box",
+            "match": {
+              "location": "retaillogin.admin_cancel_in_the_alert_box()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "Login",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 5900,
+              "status": "skipped"
+            },
+            "line": 4,
+            "name": "Admin is on login page of Retail site",
+            "match": {
+              "location": "retaillogin.admin_is_on_login_page_of_Retail_site()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 8100,
+              "status": "skipped"
+            },
+            "line": 5,
+            "name": "Admin enters the username and password",
+            "match": {
+              "location": "retaillogin.admin_enters_the_username_and_password()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4800,
+              "status": "skipped"
+            },
+            "line": 6,
+            "name": "Admin clicks on login button",
+            "match": {
+              "location": "retaillogin.admin_clicks_on_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3000,
+              "status": "skipped"
+            },
+            "line": 7,
+            "name": "he verifies that he is navigated to the Dashboard",
+            "match": {
+              "location": "retaillogin.he_verifies_that_he_is_navigated_to_the_Dashboard()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3800,
+              "status": "skipped"
+            },
+            "line": 8,
+            "name": "admin clicks on Marketing icon",
+            "match": {
+              "location": "retaillogin.admin_clicks_on_Marketing_icon()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2900,
+              "status": "skipped"
+            },
+            "line": 9,
+            "name": "admin clicks on marketing",
+            "match": {
+              "location": "retaillogin.admin_clicks_on_marketing()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-10-13T10:48:01.930Z",
+        "before": [
+          {
+            "result": {
+              "duration": 7400,
+              "status": "skipped"
+            },
+            "match": {
+              "location": "hooksclass.initialisation()"
+            }
+          }
+        ],
+        "line": 121,
+        "name": "Verify checkbox and Delete icon and accept in the alert box",
+        "description": "",
+        "id": "login-feature;verify-checkbox-and-delete-icon-and-accept-in-the-alert-box;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 3700,
+              "status": "skipped"
+            },
+            "match": {
+              "location": "hooksclass.close()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 5300,
+              "status": "skipped"
+            },
+            "line": 111,
+            "name": "Admin is on Marketing Tracking page",
+            "match": {
+              "location": "retaillogin.admin_is_on_Marketing_Tracking_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4300,
+              "status": "skipped"
+            },
+            "line": 112,
+            "name": "Admin verifies the checkbox \"20\" and delete button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"20\"",
+                  "offset": 28
+                }
+              ],
+              "location": "retaillogin.admin_verifies_the_checkbox_and_delete_button(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4300,
+              "status": "skipped"
+            },
+            "line": 113,
+            "name": "he checks the checkbox \"20\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"20\"",
+                  "offset": 23
+                }
+              ],
+              "location": "retaillogin.he_checks_the_checkbox(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 4600,
+              "status": "skipped"
+            },
+            "line": 114,
+            "name": "click on delete button",
+            "match": {
+              "location": "retaillogin.click_on_delete_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 6400,
+              "status": "skipped"
+            },
+            "line": 115,
+            "name": "admin checks the alert message",
+            "match": {
+              "location": "retaillogin.admin_checks_the_alert_message()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5200,
+              "status": "skipped"
+            },
+            "line": 116,
+            "name": "admin accept the message in the alert box",
+            "match": {
+              "location": "retaillogin.admin_accept_the_message_in_the_alert_box()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5000,
+              "status": "skipped"
+            },
+            "line": 117,
+            "name": "Validate the modification message",
+            "match": {
+              "location": "retaillogin.validate_the_modification_message()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "Login",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 6800,
+              "status": "skipped"
+            },
+            "line": 4,
+            "name": "Admin is on login page of Retail site",
+            "match": {
+              "location": "retaillogin.admin_is_on_login_page_of_Retail_site()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 6700,
+              "status": "skipped"
+            },
+            "line": 5,
+            "name": "Admin enters the username and password",
+            "match": {
+              "location": "retaillogin.admin_enters_the_username_and_password()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 5700,
+              "status": "skipped"
+            },
+            "line": 6,
+            "name": "Admin clicks on login button",
+            "match": {
+              "location": "retaillogin.admin_clicks_on_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5900,
+              "status": "skipped"
+            },
+            "line": 7,
+            "name": "he verifies that he is navigated to the Dashboard",
+            "match": {
+              "location": "retaillogin.he_verifies_that_he_is_navigated_to_the_Dashboard()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 4000,
+              "status": "skipped"
+            },
+            "line": 8,
+            "name": "admin clicks on Marketing icon",
+            "match": {
+              "location": "retaillogin.admin_clicks_on_Marketing_icon()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3500,
+              "status": "skipped"
+            },
+            "line": 9,
+            "name": "admin clicks on marketing",
+            "match": {
+              "location": "retaillogin.admin_clicks_on_marketing()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-10-13T10:48:01.935Z",
+        "before": [
+          {
+            "result": {
+              "duration": 7600,
+              "status": "skipped"
+            },
+            "match": {
+              "location": "hooksclass.initialisation()"
+            }
+          }
+        ],
+        "line": 134,
+        "name": "Verify Edit icon",
+        "description": "",
+        "id": "login-feature;verify-edit-icon;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 5200,
+              "status": "skipped"
+            },
+            "match": {
+              "location": "hooksclass.close()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 4800,
+              "status": "skipped"
+            },
+            "line": 124,
+            "name": "Admin is on Marketing Tracking page",
+            "match": {
+              "location": "retaillogin.admin_is_on_Marketing_Tracking_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4900,
+              "status": "skipped"
+            },
+            "line": 125,
+            "name": "Admin verifies and click on edit icon",
+            "match": {
+              "location": "retaillogin.admin_verifies_and_click_on_edit_icon()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3600,
+              "status": "skipped"
+            },
+            "line": 126,
+            "name": "admin verifies that he is navigated to edit marketing tracking page",
+            "match": {
+              "location": "retaillogin.admin_verifies_that_he_is_navigated_to_edit_marketing_tracking_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3400,
+              "status": "skipped"
+            },
+            "line": 127,
+            "name": "verifies Campaign name, Campaign Description, Tracking code and Examples text field",
+            "match": {
+              "location": "retaillogin.verifies_Campaign_name_Campaign_Description_Tracking_code_and_Examples_text_field()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3600,
+              "status": "skipped"
+            },
+            "line": 128,
+            "name": "edit \"abcdef\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"abcdef\"",
+                  "offset": 5
+                }
+              ],
+              "location": "retaillogin.edit(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5400,
+              "status": "skipped"
+            },
+            "line": 129,
+            "name": "verifies and click on Save icon",
+            "match": {
+              "location": "retaillogin.verifies_and_click_on_Save_icon()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5300,
+              "status": "skipped"
+            },
+            "line": 130,
+            "name": "verifeis the successful modification message",
+            "match": {
+              "location": "retaillogin.verifeis_the_successful_modification_message()"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "login feature",
+    "description": "",
+    "id": "login-feature",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/Feature1/login.feature",
+    "tags": []
+  }
+]

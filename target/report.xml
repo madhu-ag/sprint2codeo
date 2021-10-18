@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="16" time="0.023595">
+    <testcase classname="login feature" name="Verify by entering details in Campaign name" time="0.006785">
+        <system-out><![CDATA[Given Admin is on login page of Retail site.................................skipped
+When Admin enters the username and password.................................skipped
+And Admin clicks on login button............................................skipped
+Then he verifies that he is navigated to the Dashboard......................skipped
+And admin clicks on Marketing icon..........................................skipped
+And admin clicks on marketing...............................................skipped
+Given Admin is on Markertin tracking page...................................skipped
+When Admin verifies Campaign name text field................................skipped
+Then Admin enters "abc" by already existing data in list and non existing data in the list.skipped
+And clicks on filter........................................................skipped
+And verifies the list.......................................................skipped
+]]></system-out>
+    </testcase>
+    <testcase classname="login feature" name="Verify by entering details in Campaign name 2" time="0.000945">
+        <system-out><![CDATA[Given Admin is on login page of Retail site.................................skipped
+When Admin enters the username and password.................................skipped
+And Admin clicks on login button............................................skipped
+Then he verifies that he is navigated to the Dashboard......................skipped
+And admin clicks on Marketing icon..........................................skipped
+And admin clicks on marketing...............................................skipped
+Given Admin is on Markertin tracking page...................................skipped
+When Admin verifies Campaign name text field................................skipped
+Then Admin enters "fddxgxd" by already existing data in list and non existing data in the list.skipped
+And clicks on filter........................................................skipped
+And verifies the list.......................................................skipped
+]]></system-out>
+    </testcase>
+    <testcase classname="login feature" name="Verify by entering details in Date added field" time="0.00077">
+        <system-out><![CDATA[Given Admin is on login page of Retail site.................................skipped
+When Admin enters the username and password.................................skipped
+And Admin clicks on login button............................................skipped
+Then he verifies that he is navigated to the Dashboard......................skipped
+And admin clicks on Marketing icon..........................................skipped
+And admin clicks on marketing...............................................skipped
+Given Admin is on Markertin tracking page...................................skipped
+When Admin verifies Date added text field and calender icon.................skipped
+Then Admin enters "2021-10-06"..............................................skipped
+And clicks on filter........................................................skipped
+And verifies the list.......................................................skipped
+]]></system-out>
+    </testcase>
+    <testcase classname="login feature" name="Verify by entering details in Date added field 2" time="0.000791">
+        <system-out><![CDATA[Given Admin is on login page of Retail site.................................skipped
+When Admin enters the username and password.................................skipped
+And Admin clicks on login button............................................skipped
+Then he verifies that he is navigated to the Dashboard......................skipped
+And admin clicks on Marketing icon..........................................skipped
+And admin clicks on marketing...............................................skipped
+Given Admin is on Markertin tracking page...................................skipped
+When Admin verifies Date added text field and calender icon.................skipped
+Then Admin enters "2021-10-07"..............................................skipped
+And clicks on filter........................................................skipped
+And verifies the list.......................................................skipped
+]]></system-out>
+    </testcase>
+    <testcase classname="login feature" name="Verify by entering details in Tracking code" time="0.000766">
+        <system-out><![CDATA[Given Admin is on login page of Retail site.................................skipped
+When Admin enters the username and password.................................skipped
+And Admin clicks on login button............................................skipped
+Then he verifies that he is navigated to the Dashboard......................skipped
+And admin clicks on Marketing icon..........................................skipped
+And admin clicks on marketing...............................................skipped
+Given Admin is on Markertin tracking page...................................skipped
+When Admin verifies Tracking code text field................................skipped
+Then Admin enters "6135a8f3283d9" in trabking code field by already existing data in listand non existing data in the list.skipped
+And clicks on filter........................................................skipped
+And verifies the list.......................................................skipped
+]]></system-out>
+    </testcase>
+    <testcase classname="login feature" name="Verify by entering details in Tracking code 2" time="0.001076">
+        <system-out><![CDATA[Given Admin is on login page of Retail site.................................skipped
+When Admin enters the username and password.................................skipped
+And Admin clicks on login button............................................skipped
+Then he verifies that he is navigated to the Dashboard......................skipped
+And admin clicks on Marketing icon..........................................skipped
+And admin clicks on marketing...............................................skipped
+Given Admin is on Markertin tracking page...................................skipped
+When Admin verifies Tracking code text field................................skipped
+Then Admin enters "jriwod234edee" in trabking code field by already existing data in listand non existing data in the list.skipped
+And clicks on filter........................................................skipped
+And verifies the list.......................................................skipped
+]]></system-out>
+    </testcase>
+    <testcase classname="login feature" name="Verify the Add button and Add valid data" time="0.001412">
+        <system-out><![CDATA[Given Admin is on login page of Retail site.................................skipped
+When Admin enters the username and password.................................skipped
+And Admin clicks on login button............................................skipped
+Then he verifies that he is navigated to the Dashboard......................skipped
+And admin clicks on Marketing icon..........................................skipped
+And admin clicks on marketing...............................................skipped
+Given Admin is on Markertin tracking page...................................skipped
+When Admin verifies and clicks the add button...............................skipped
+Then admin verifies that he is navigated to add marketing tracking page.....skipped
+And verifies Campaign name, Campaign Description, Tracking code and Examples text field.skipped
+And add "Naya123", "Rggdf123d" with alphanumeric,special character,twenty five characters.skipped
+And verifies tracking code is given by default example field has default URL.skipped
+And verifies and click on Save icon.........................................skipped
+And verifeis the successful modification message............................skipped
+]]></system-out>
+    </testcase>
+    <testcase classname="login feature" name="Verify the Add button and Add valid data 2" time="0.001256">
+        <system-out><![CDATA[Given Admin is on login page of Retail site.................................skipped
+When Admin enters the username and password.................................skipped
+And Admin clicks on login button............................................skipped
+Then he verifies that he is navigated to the Dashboard......................skipped
+And admin clicks on Marketing icon..........................................skipped
+And admin clicks on marketing...............................................skipped
+Given Admin is on Markertin tracking page...................................skipped
+When Admin verifies and clicks the add button...............................skipped
+Then admin verifies that he is navigated to add marketing tracking page.....skipped
+And verifies Campaign name, Campaign Description, Tracking code and Examples text field.skipped
+And add "Nayd$@$", "fsdmfmsgk%$$" with alphanumeric,special character,twenty five characters.skipped
+And verifies tracking code is given by default example field has default URL.skipped
+And verifies and click on Save icon.........................................skipped
+And verifeis the successful modification message............................skipped
+]]></system-out>
+    </testcase>
+    <testcase classname="login feature" name="Verify the Add button and Add valid data 3" time="0.001268">
+        <system-out><![CDATA[Given Admin is on login page of Retail site.................................skipped
+When Admin enters the username and password.................................skipped
+And Admin clicks on login button............................................skipped
+Then he verifies that he is navigated to the Dashboard......................skipped
+And admin clicks on Marketing icon..........................................skipped
+And admin clicks on marketing...............................................skipped
+Given Admin is on Markertin tracking page...................................skipped
+When Admin verifies and clicks the add button...............................skipped
+Then admin verifies that he is navigated to add marketing tracking page.....skipped
+And verifies Campaign name, Campaign Description, Tracking code and Examples text field.skipped
+And add "Acbhdyehdjfkvhilidsxcdcdc", "Achejmjmjnjjjddddccccccuu" with alphanumeric,special character,twenty five characters.skipped
+And verifies tracking code is given by default example field has default URL.skipped
+And verifies and click on Save icon.........................................skipped
+And verifeis the successful modification message............................skipped
+]]></system-out>
+    </testcase>
+    <testcase classname="login feature" name="Verify the Add button and Add invalid tracking code" time="0.000857">
+        <system-out><![CDATA[Given Admin is on login page of Retail site.................................skipped
+When Admin enters the username and password.................................skipped
+And Admin clicks on login button............................................skipped
+Then he verifies that he is navigated to the Dashboard......................skipped
+And admin clicks on Marketing icon..........................................skipped
+And admin clicks on marketing...............................................skipped
+Given Admin is on Markertin tracking page...................................skipped
+When Admin verifies and clicks the add button...............................skipped
+Then admin verifies that he is navigated to add marketing tracking page.....skipped
+And verifies Campaign name, Campaign Description, Tracking code and Examples text field.skipped
+And add "adgxvxdv" with any value and "Axnjkloiuytghjklpoiuytrewsdfghjklmnbvcxz4567890ioklcfsfdfqwertyuioplkjhgfdsazxcvbnmkjhgfdsaqwertyhg5678904567890-=ojhtgnjkmljhgvftyuhjkloiuytrewsdfghjklmnbvcxzsdfghjkloiuhbnm,loiuytvbbbbbbbbbbbbbbbbbbbbbbbbbbbbhhhhhhhhjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjuuuuuu" with two hundred fifty seven characters.skipped
+And verifies and click on Save icon.........................................skipped
+And verifies the Error message..............................................skipped
+]]></system-out>
+    </testcase>
+    <testcase classname="login feature" name="Verify the Add button and Add invalid data" time="0.001732">
+        <system-out><![CDATA[Given Admin is on login page of Retail site.................................skipped
+When Admin enters the username and password.................................skipped
+And Admin clicks on login button............................................skipped
+Then he verifies that he is navigated to the Dashboard......................skipped
+And admin clicks on Marketing icon..........................................skipped
+And admin clicks on marketing...............................................skipped
+Given Admin is on Markertin tracking page...................................skipped
+When Admin verifies and clicks the add button...............................skipped
+Then admin verifies that he is navigated to add marketing tracking page.....skipped
+And verifies Campaign name, Campaign Description, Tracking code and Examples text field.skipped
+And add "", "" with null value and two hundred fifty seven characters.......skipped
+And verifies and click on Save icon.........................................skipped
+And verifies the Error message..............................................skipped
+]]></system-out>
+    </testcase>
+    <testcase classname="login feature" name="Verify the Add button and Add invalid data 2" time="0.000902">
+        <system-out><![CDATA[Given Admin is on login page of Retail site.................................skipped
+When Admin enters the username and password.................................skipped
+And Admin clicks on login button............................................skipped
+Then he verifies that he is navigated to the Dashboard......................skipped
+And admin clicks on Marketing icon..........................................skipped
+And admin clicks on marketing...............................................skipped
+Given Admin is on Markertin tracking page...................................skipped
+When Admin verifies and clicks the add button...............................skipped
+Then admin verifies that he is navigated to add marketing tracking page.....skipped
+And verifies Campaign name, Campaign Description, Tracking code and Examples text field.skipped
+And add "Axnjkloiuytghjklpoiuytrewsdfghjklmnbvcxz4567890ioklcfsfdfqwertyuioplkjhgfdsazxcvbnmkjhgfdsaqwertyhg5678904567890-=ojhtgnjkmljhgvftyuhjkloiuytrewsdfghjklmnbvcxzsdfghjkloiuhbnm,loiuytvbbbbbbbbbbbbbbbbbbbbbbbbbbbbhhhhhhhhjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjuuuuuu", "Axnjkloiuytghjklpoiuytrewsdfghjklmnbvc" with null value and two hundred fifty seven characters.skipped
+And verifies and click on Save icon.........................................skipped
+And verifies the Error message..............................................skipped
+]]></system-out>
+    </testcase>
+    <testcase classname="login feature" name="Verify Cancel button" time="0.001083">
+        <system-out><![CDATA[Given Admin is on login page of Retail site.................................skipped
+When Admin enters the username and password.................................skipped
+And Admin clicks on login button............................................skipped
+Then he verifies that he is navigated to the Dashboard......................skipped
+And admin clicks on Marketing icon..........................................skipped
+And admin clicks on marketing...............................................skipped
+Given Admin is on Markertin tracking page...................................skipped
+When Admin verifies and clicks the add button...............................skipped
+Then admin verifies that he is navigated to add marketing tracking page.....skipped
+And Verifies and clicks on save button......................................skipped
+And verifies he is navigated to previous Marketing Tracking page............skipped
+]]></system-out>
+    </testcase>
+    <testcase classname="login feature" name="Verify checkbox and Delete icon and dismiss in the alert box" time="0.001238">
+        <system-out><![CDATA[Given Admin is on login page of Retail site.................................skipped
+When Admin enters the username and password.................................skipped
+And Admin clicks on login button............................................skipped
+Then he verifies that he is navigated to the Dashboard......................skipped
+And admin clicks on Marketing icon..........................................skipped
+And admin clicks on marketing...............................................skipped
+Given Admin is on Marketing Tracking page...................................skipped
+When Admin verifies the checkbox "20" and delete button.....................skipped
+Then he checks the checkbox "20"............................................skipped
+And click on delete button..................................................skipped
+And admin checks the alert message..........................................skipped
+And admin cancel in the alert box...........................................skipped
+]]></system-out>
+    </testcase>
+    <testcase classname="login feature" name="Verify checkbox and Delete icon and accept in the alert box" time="0.001388">
+        <system-out><![CDATA[Given Admin is on login page of Retail site.................................skipped
+When Admin enters the username and password.................................skipped
+And Admin clicks on login button............................................skipped
+Then he verifies that he is navigated to the Dashboard......................skipped
+And admin clicks on Marketing icon..........................................skipped
+And admin clicks on marketing...............................................skipped
+Given Admin is on Marketing Tracking page...................................skipped
+When Admin verifies the checkbox "20" and delete button.....................skipped
+Then he checks the checkbox "20"............................................skipped
+And click on delete button..................................................skipped
+And admin checks the alert message..........................................skipped
+And admin accept the message in the alert box...............................skipped
+And Validate the modification message.......................................skipped
+]]></system-out>
+    </testcase>
+    <testcase classname="login feature" name="Verify Edit icon" time="0.001326">
+        <system-out><![CDATA[Given Admin is on login page of Retail site.................................skipped
+When Admin enters the username and password.................................skipped
+And Admin clicks on login button............................................skipped
+Then he verifies that he is navigated to the Dashboard......................skipped
+And admin clicks on Marketing icon..........................................skipped
+And admin clicks on marketing...............................................skipped
+Given Admin is on Marketing Tracking page...................................skipped
+When Admin verifies and click on edit icon..................................skipped
+Then admin verifies that he is navigated to edit marketing tracking page....skipped
+And verifies Campaign name, Campaign Description, Tracking code and Examples text field.skipped
+And edit "abcdef"...........................................................skipped
+And verifies and click on Save icon.........................................skipped
+And verifeis the successful modification message............................skipped
+]]></system-out>
+    </testcase>
+</testsuite>
